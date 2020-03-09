@@ -179,7 +179,7 @@ export default function HomeTest({navigation}) {
             onPress={() => onMenuPress('')}>
             <View style={{flexDirection: 'row'}}>
               <Icon name="insert-chart" type="MaterialIcons" color="#143360" />
-              <Text style={styles.buttonText}>Claim Report</Text>
+              <Text style={styles.buttonText}>Claim Report Test</Text>
             </View>
           </TouchableOpacity>
         </View>
@@ -189,7 +189,7 @@ export default function HomeTest({navigation}) {
             onPress={() => onMenuPress('Attendance')}>
             <View style={{flexDirection: 'row'}}>
               <Icon name="alarm" type="MaterialIcons" color="#143360" />
-              <Text style={styles.buttonText}>Attendance</Text>
+              <Text style={styles.buttonText}>Attendance Test</Text>
             </View>
           </TouchableOpacity>
         </View>
