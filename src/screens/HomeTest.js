@@ -169,7 +169,7 @@ export default function HomeTest({navigation}) {
             onPress={() => onMenuPress('')}>
             <View style={{flexDirection: 'row'}}>
               <Icon name="pie-chart" type="MaterialIcons" color="#143360" />
-              <Text style={styles.buttonText}>Production Report</Text>
+              <Text style={styles.buttonText}>Production Report Test</Text>
             </View>
           </TouchableOpacity>
         </View>
